@@ -152,8 +152,13 @@ jak_stat = @reaction_network begin
     (0.1, 0.05), IFNR + JAK <--> IFNRJ
 
     # IRF1 dynamics
-    (0.01),  STAT1n_STAT1n_star --> STAT1n_STAT1n_star + IRF
-    5e-4, IRF --> 0
+    0.015/60, 0 --> IRF
+    0.025/60,  STAT1n_STAT1n_star --> STAT1n_STAT1n_star + IRF
+    0.022/60, IRF --> 0
+
+    # GBP5 dynamics
+    hill(IRF, 0.1/60, 1.3, 1), 0 --> GBP5
+    5.8e-3/60,  GBP5 --> 0
 end
 
 # Define initial conditions
@@ -192,7 +197,8 @@ u0 = [
     :IFNRJ2_star_SHP2_SOCS1 => 0.0,
     :IFNR => 0.0,
     :IFN => 100.0,
-    :IRF => 0.0
+    :IRF => 0.0,
+    :GBP5 => 0.0
 ]
 
 # Define parameters
@@ -202,7 +208,7 @@ p = [
 ]
 
 # Define problem
-tspan = (0.0, 10*3600.0)
+tspan = (0.0, 24*3600.0)
 prob = ODEProblem(jak_stat, u0, tspan, p)
 
 
@@ -232,7 +238,7 @@ function simulate_jak_stat()
         :PPN, :STAT1n_star_PPN, :STAT1n, :STAT1n_STAT1n_star, :mRNAn, :mRNAc, :SOCS1,
         :IFNRJ2_star_SOCS1, :IFNRJ2_star_SHP2_SOCS1_STAT1c, :STAT1c_star_STAT1c_star_PPX,
         :STAT1n_star_STAT1n_star_PPN, :IFNRJ2_star_SOCS1_STAT1c, :IFNRJ2_star_SHP2_STAT1c,
-        :IFNRJ2_star_SHP2_SOCS1, :IFNR, :IFN, :IRF
+        :IFNRJ2_star_SHP2_SOCS1, :IFNR, :IFN, :IRF, :GBP5
     ]
     
     for (i, sp) in enumerate(species_list)
