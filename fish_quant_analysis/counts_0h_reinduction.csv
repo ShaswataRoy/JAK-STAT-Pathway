@@ -1,0 +1,209 @@
+cell,frame,type,count
+1,0,Nascent,13
+1,1,No Spots,1
+1,3,Nascent,13
+1,4,Nascent,1
+1,6,Nascent,1
+1,9,Nascent,4
+1,10,Nascent,14
+1,12,Nascent,2
+1,13,No Spots,1
+1,14,Nascent,3
+1,15,Nascent,41
+1,17,Nascent,9
+1,19,Nascent,27
+1,23,Nascent,1
+1,24,Mature,304
+1,24,Nascent,697
+1,24,Transcription Site,26
+1,25,No Spots,1
+1,26,Nascent,22
+1,27,Mature,250
+1,27,Nascent,754
+1,27,Transcription Site,28
+1,29,No Spots,1
+1,30,Nascent,1
+1,31,Nascent,1
+1,33,Nascent,16
+1,34,No Spots,1
+1,38,Nascent,42
+1,40,Mature,171
+1,42,Nascent,2
+1,43,Nascent,4
+1,44,Nascent,1
+1,47,No Spots,1
+1,48,Nascent,5
+1,49,Mature,9
+1,49,Nascent,10
+1,49,Transcription Site,1
+1,50,No Spots,1
+1,53,Nascent,29
+1,54,No Spots,1
+1,55,Nascent,1
+1,56,Nascent,29
+1,57,Mature,7
+1,57,Nascent,14
+1,59,Nascent,9
+1,60,Nascent,1
+1,61,Nascent,13
+1,62,Nascent,1
+1,64,No Spots,1
+1,65,Mature,67
+1,65,Nascent,8
+1,67,No Spots,1
+1,70,Nascent,3
+1,72,No Spots,1
+1,74,No Spots,1
+1,75,No Spots,1
+1,76,Nascent,1
+1,77,Nascent,36
+1,79,Nascent,15
+1,80,Nascent,1
+1,81,No Spots,1
+1,82,Nascent,24
+1,84,Nascent,1
+1,85,No Spots,1
+1,86,Nascent,10
+1,87,Nascent,7
+1,88,Nascent,2
+1,89,Nascent,9
+1,90,Nascent,1
+1,91,Nascent,1
+1,92,Nascent,1
+1,93,Nascent,2
+1,95,No Spots,1
+1,96,Nascent,2
+1,97,No Spots,1
+1,98,Nascent,9
+1,99,Nascent,5
+2,1,Mature,11
+2,1,Nascent,35
+2,3,Nascent,2
+2,6,Nascent,25
+2,9,Nascent,30
+2,10,Nascent,7
+2,12,No Spots,1
+2,13,Nascent,19
+2,14,Nascent,18
+2,15,Nascent,1
+2,19,No Spots,1
+2,24,Mature,237
+2,24,Nascent,842
+2,24,Transcription Site,40
+2,25,Nascent,12
+2,26,Nascent,48
+2,31,Nascent,5
+2,33,Nascent,2
+2,34,No Spots,1
+2,38,Nascent,4
+2,47,Nascent,16
+2,50,Nascent,6
+2,55,No Spots,1
+2,56,Nascent,1
+2,62,No Spots,1
+2,64,Nascent,5
+2,65,Nascent,5
+2,67,No Spots,1
+2,70,Nascent,1
+2,72,Nascent,11
+2,74,Nascent,6
+2,75,No Spots,1
+2,79,Nascent,5
+2,80,Nascent,2
+2,81,Nascent,1
+2,82,Nascent,5
+2,84,Nascent,15
+2,86,Nascent,14
+2,87,Nascent,1
+2,88,Nascent,16
+2,89,Nascent,2
+2,90,Nascent,67
+2,91,Nascent,4
+2,92,No Spots,1
+2,93,Nascent,9
+2,95,Nascent,15
+2,96,Nascent,4
+2,97,No Spots,1
+2,98,No Spots,1
+2,99,Nascent,19
+3,1,Nascent,1
+3,6,No Spots,1
+3,9,Nascent,2
+3,13,Nascent,15
+3,15,No Spots,1
+3,19,Nascent,82
+3,24,Mature,343
+3,24,Nascent,885
+3,24,Transcription Site,24
+3,31,Mature,10
+3,31,Nascent,15
+3,34,Nascent,26
+3,47,No Spots,1
+3,50,Nascent,5
+3,55,No Spots,1
+3,56,Nascent,1
+3,64,No Spots,1
+3,65,Nascent,3
+3,70,No Spots,1
+3,72,Nascent,9
+3,72,Transcription Site,1
+3,75,Nascent,4
+3,79,Nascent,23
+3,80,Nascent,11
+3,81,Nascent,9
+3,82,No Spots,1
+3,86,Nascent,14
+3,87,Nascent,3
+3,88,Nascent,14
+3,89,Nascent,1
+3,90,Nascent,20
+3,91,Nascent,9
+3,93,No Spots,1
+3,95,No Spots,1
+3,96,No Spots,1
+3,97,Nascent,3
+3,98,No Spots,1
+4,24,Mature,130
+4,24,Nascent,459
+4,24,Transcription Site,20
+4,55,No Spots,1
+4,64,No Spots,1
+4,65,No Spots,1
+4,72,Mature,125
+4,72,Nascent,4
+4,75,Mature,555
+4,79,Mature,58
+4,79,Transcription Site,1
+4,80,Nascent,8
+4,81,Nascent,1
+4,82,Nascent,4
+4,87,Nascent,14
+4,88,Nascent,14
+4,89,Nascent,18
+4,90,Mature,27
+4,90,Nascent,66
+4,90,Transcription Site,2
+4,91,Nascent,1
+4,95,Nascent,4
+4,96,Nascent,11
+4,97,No Spots,1
+4,98,Nascent,19
+5,75,No Spots,1
+5,75,Transcription Site,1
+5,79,No Spots,1
+5,80,Nascent,9
+5,81,Nascent,10
+5,88,Nascent,1
+5,89,Mature,9
+5,89,Nascent,74
+5,89,Transcription Site,1
+5,91,Nascent,13
+6,75,No Spots,1
+6,81,Nascent,3
+6,88,No Spots,1
+6,89,Nascent,1
+6,91,Mature,8
+6,91,Nascent,2
+7,75,Nascent,14
+7,81,Nascent,2
+7,91,No Spots,1
